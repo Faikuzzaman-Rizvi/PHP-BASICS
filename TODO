@@ -1,0 +1,37 @@
+1.variables
+2.Data types
+3.Php String
+4.numbers
+5.casting
+6.math
+7.constants
+8.magic constants
+9.operators
+10.if else elseif
+11.switch
+12.loops
+13.function
+14.arrays
+15.supergolbals
+16.RegEx
+17.printf
+--Integer Formats
+    %d or %i — Signed decimal integer (e.g., 123, -456)
+    %u — Unsigned decimal integer (e.g., 123)
+Floating-Point Formats
+    %f — Floating-point number with fixed precision (e.g., 123.45)
+    %F — Same as %f, but uses uppercase INF and NAN
+    %e — Scientific notation (e.g., 1.23e+2)
+    %E — Scientific notation with an uppercase "E" (e.g., 1.23E+2)
+    %g — Shorter of %e or %f
+    %G — Shorter of %E or %F
+String Formats
+    %s — String (e.g., "Hello")
+Character Formats
+    %c — Single character (e.g., ASCII value converted to character)
+    Octal and Hexadecimal Formats
+    %o — Octal number (e.g., 77 for decimal 63)
+    %x — Hexadecimal number (lowercase letters, e.g., 1a)
+    %X — Hexadecimal number (uppercase letters, e.g., 1A)
+Other Formats
+    %% — A literal percent sign (%) 
