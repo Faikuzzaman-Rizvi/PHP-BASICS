@@ -45,4 +45,13 @@ printf("Bainary: %b, Decimal: %d, Octal: %o, Hex (lower): %x, Hex (upper): %X\n"
     $number, $number, $number, $number,$number);
 
 
+$number = 9;
+$str = "Beijing";
+printf("There are %u million bicycles in %s.\n",$number,$str);
+
+
+$number = 123;
+printf('With 2 decimals: %1$.2f
+<br>With no decimals: %1$b',$number);
+
 
