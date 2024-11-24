@@ -1,13 +1,13 @@
 1.variables
 2.Data types
 String
-Integer
-Float (floating point numbers - also called double)
-Boolean
-Array
-Object
-NULL
-Resource
+    Integer
+    Float (floating point numbers - also called double)
+    Boolean
+    Array
+    Object
+    NULL
+    Resource
 3.Php String
 4.numbers
 5.casting
