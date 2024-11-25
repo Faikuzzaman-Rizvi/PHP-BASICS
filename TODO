@@ -15,6 +15,14 @@ String
 7.constants
 8.magic constants
 9.operators
+    Arithmetic operators
+    Assignment operators
+    Comparison operators
+    Increment/Decrement operators
+    Logical operators
+    String operators
+    Array operators
+    Conditional assignment operators
 10.if else elseif
 11.switch
 12.loops
