@@ -26,7 +26,7 @@ for($i=1; $i <=10 ; $i++){
     if($i % 2 == 0 ){
     echo "$i is odd number!\n";
     }else{
-        echo "$i this is a even number!\n";
+        echo "$i is a even number!\n";
     }
     
 }
@@ -37,5 +37,19 @@ $factorial = 1;
 for ($i = 1; $i <= $number; $i++) {
     $factorial *= $i;
 }
-echo "The factorial of $number is: $factorial";
+echo "The factorial of $number is: $factorial \n";
+
+
+$sum = 0;
+
+for($i=1; $i<=100; $i+=1){
+    $sum += $i;
+}
+echo "The sum of numbers from 1 to 100 is: $sum \n";
+
+$sum = 0;
+for ($i = 1; $i <= 100; $i++) {
+    $sum += $i;
+}
+echo "The sum of numbers from 1 to 100 is: $sum";
 
