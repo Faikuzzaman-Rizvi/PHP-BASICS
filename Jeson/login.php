@@ -1,8 +1,23 @@
 <?php 
 session_start();
+
+$user = $_SESSION["userName"] ?? null;
+if ($user) {
+  header("location:dashboard.php");
+    exit();
+}
+
+
 if(isset($_POST["email"]) && isset($_POST['password'])){
-    $_SESSION["userName"] = $_POST["email"];
-    header("location:dashboard.php");
+    $name = $_POST["email"];
+    $password = $_POST["password"];
+    if($name == "admin" && $password = "1234"){
+      $_SESSION["userName"] = $name;
+      header("location:dashboard.php");
+      exit();
+    }else {
+      echo "Invalid username or password";
+    }
 }
 
 
@@ -88,11 +103,11 @@ if(isset($_POST["email"]) && isset($_POST['password'])){
     <form method="post">
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
       </div>
       <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
       </div>
       <button type="submit" class="btn-login">Login</button>
     </form>
